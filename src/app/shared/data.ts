@@ -64,4 +64,13 @@ export const staffs: Staff[] = [
     datamodifiedOn: new Date('2024-06-01'),
     DepartmentId: 1,
   },
+  {
+    Id: 6,
+    StaffCode: 'S006',
+    StaffName: 'Charlie Davis',
+    DepartmentName: 'Chemistry Department',
+    dataCreatedOn: new Date('2024-01-01'),
+    datamodifiedOn: new Date('2024-06-01'),
+    DepartmentId: 1,
+  }
 ];
