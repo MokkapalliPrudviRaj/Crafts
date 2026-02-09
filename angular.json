@@ -20,7 +20,7 @@
             "outputPath": "dist/crafts",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
-            "baseHref": "/crafts",
+            "baseHref": "/crafts/",
             "assets": [],
             "styles": [
               "src/styles.css"
