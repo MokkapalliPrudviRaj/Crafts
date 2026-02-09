@@ -16,6 +16,13 @@ export const departments: Department[] = [
     dataCreatedOn: new Date('2024-01-01'),
     datamodifiedOn: new Date('2024-06-01'),
   },
+  {
+    Id: 3,
+    DepartmentCode: 'MATH',
+    DepartmentName: 'Mathematics Department',
+    dataCreatedOn: new Date('2024-01-01'),
+    datamodifiedOn: new Date('2024-06-01'),
+  },
 ];
 
 export const staffs: Staff[] = [
