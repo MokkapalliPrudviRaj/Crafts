@@ -20,8 +20,10 @@
             "outputPath": "dist/Crafts",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
-            "baseHref": "/Crafts/",
-            "assets": [],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
             "styles": [
               "src/styles.css"
             ]
@@ -40,12 +42,14 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/Crafts/"
             },
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "baseHref": "/"
             }
           },
           "defaultConfiguration": "production"

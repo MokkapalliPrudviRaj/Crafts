@@ -1,5 +1,5 @@
 {
-  "name": "Crafts",
+  "name": "crafts",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --base-href /Crafts/ && npx angular-cli-ghpages --dir=dist/Crafts/browser"
+    "clean": "powershell -Command \"Remove-Item -Recurse -Force dist -ErrorAction SilentlyContinue\"",
+    "deploy": "npm run clean && ng build --base-href /Crafts/ && npx angular-cli-ghpages --dir=dist/Crafts/browser"
   },
   "prettier": {
     "printWidth": 100,
