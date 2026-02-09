@@ -6,7 +6,20 @@ import {
   Search,
   Menu,
   X,
-  LogOut
+  LogOut,
+  Plus,
+  Edit,
+  Trash2,
+  Save,
+  Building2,
+  Users,
+  Check,
+  RotateCcw,
+  CheckCircle,
+  AlertCircle,
+  Info,
+  ChevronUp,
+  ChevronDown
 } from 'lucide-angular';
 
 export const LUCIDE_ICONS = {
@@ -17,5 +30,18 @@ export const LUCIDE_ICONS = {
   Search,
   Menu,
   X,
-  LogOut
+  LogOut,
+  Plus,
+  Edit,
+  Trash2,
+  Save,
+  Building2,
+  Users,
+  Check,
+  RotateCcw,
+  CheckCircle,
+  AlertCircle,
+  Info,
+  ChevronUp,
+  ChevronDown
 };

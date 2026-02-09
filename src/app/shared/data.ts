@@ -1,0 +1,67 @@
+import { Department } from "./models/models";
+import { Staff } from "./models/models";
+
+export const departments: Department[] = [
+  {
+    Id: 1,
+    DepartmentCode: 'CHEM',
+    DepartmentName: 'Chemistry Department',
+    dataCreatedOn: new Date('2024-01-01'),
+    datamodifiedOn: new Date('2024-06-01'),
+  },
+  {
+    Id: 2,
+    DepartmentCode: 'PHY',
+    DepartmentName: 'Physics Department',
+    dataCreatedOn: new Date('2024-01-01'),
+    datamodifiedOn: new Date('2024-06-01'),
+  },
+];
+
+export const staffs: Staff[] = [
+  {
+    Id: 1,
+    StaffCode: 'S001',
+    StaffName: 'John Doe',
+    DepartmentName: 'Chemistry Department',
+    dataCreatedOn: new Date('2024-01-01'),
+    datamodifiedOn: new Date('2024-06-01'),
+    DepartmentId: 1,
+  },
+  {
+    Id: 2,
+    StaffCode: 'S002',
+    StaffName: 'Jane Smith',
+    DepartmentName: 'Physics Department',
+    dataCreatedOn: new Date('2024-01-01'),
+    datamodifiedOn: new Date('2024-06-01'),
+    DepartmentId: 2,
+  },
+  {
+    Id: 3,
+    StaffCode: 'S003',
+    StaffName: 'Alice Johnson',
+    DepartmentName: 'Chemistry Department',
+    dataCreatedOn: new Date('2024-01-01'),
+    datamodifiedOn: new Date('2024-06-01'),
+    DepartmentId: 1,
+  },
+  {
+    Id: 4,
+    StaffCode: 'S004',
+    StaffName: 'Bob Brown',
+    DepartmentName: 'Physics Department',
+    dataCreatedOn: new Date('2024-01-01'),
+    datamodifiedOn: new Date('2024-06-01'),
+    DepartmentId: 2,
+  },
+  {
+    Id: 5,
+    StaffCode: 'S005',
+    StaffName: 'Charlie Davis',
+    DepartmentName: 'Chemistry Department',
+    dataCreatedOn: new Date('2024-01-01'),
+    datamodifiedOn: new Date('2024-06-01'),
+    DepartmentId: 1,
+  },
+];
