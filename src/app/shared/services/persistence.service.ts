@@ -4,8 +4,8 @@ import { Injectable } from '@angular/core';
     providedIn: 'root'
 })
 export class PersistenceService {
-    private readonly STORAGE_KEY_DEPTS = 'crafts_departments';
-    private readonly STORAGE_KEY_STAFFS = 'crafts_staffs';
+    private readonly STORAGE_KEY_DEPTS = 'Crafts_departments';
+    private readonly STORAGE_KEY_STAFFS = 'Crafts_staffs';
 
     saveDepartments(departments: any[]) {
         localStorage.setItem(this.STORAGE_KEY_DEPTS, JSON.stringify(departments));

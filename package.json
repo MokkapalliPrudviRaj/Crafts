@@ -1,5 +1,5 @@
 {
-  "name": "crafts",
+  "name": "Crafts",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --configuration production && npx angular-cli-ghpages --dir=dist/crafts/browser"
+    "deploy": "ng build --configuration production && npx angular-cli-ghpages --dir=dist/Crafts/browser"
   },
   "prettier": {
     "printWidth": 100,

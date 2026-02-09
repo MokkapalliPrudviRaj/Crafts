@@ -7,7 +7,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "crafts": {
+    "Crafts": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -17,10 +17,10 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/crafts",
+            "outputPath": "dist/Crafts",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
-            "baseHref": "/crafts/",
+            "baseHref": "/Crafts/",
             "assets": [],
             "styles": [
               "src/styles.css"
@@ -54,10 +54,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "crafts:build:production"
+              "buildTarget": "Crafts:build:production"
             },
             "development": {
-              "buildTarget": "crafts:build:development"
+              "buildTarget": "Crafts:build:development"
             }
           },
           "defaultConfiguration": "development"
